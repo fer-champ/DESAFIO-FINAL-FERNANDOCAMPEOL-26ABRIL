@@ -4,12 +4,13 @@
   width: 20;
   border: 3px;
   text-align: center;
-  color: red;
+  color: black;
+  line-height: 1.3em;
 }
 
 body {
   font-family: 'Roboto', sans-serif;
-  background-image: url(images/morocco_13-PARA-WEB.jpg);
+  background-image: url(images/liencres-baja.jpg);
 }
 
 header {
@@ -20,9 +21,11 @@ header {
 
 footer {
   width: 100%;
-  padding: 20px;
+  padding: 10px;
   text-align: center;
-  color: red;
+  color: black;
+  background-color: bisque;
+  font-family: 'Roboto', sans-serif;
 }
 
 .slide {
@@ -30,27 +33,38 @@ footer {
   height: 65vh;
 }
 
-.parrafoinicio {
-  height: 250;
+h3{
+  align-items: center;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+p {
   font-size: larger;
-  width: 20;
-  border: 3px;
-  text-align: center;
-  color: red;
+  justify-content: center;
+  display: flex;
+  padding: 5%;
 }
 
-card {
-  text-align: center;
-  color: red;
+.row {
+  color: rgb(97, 97, 10);
+}
+.sobremi {
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: auto;
+  color:black;
+}
+.iggypop {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.fotografia {
-  width: 620px;
-  height: 450px;
-}
-
-.animacionlogo:hover {
-  -webkit-transform: scale(1.5, 1.2);
-          transform: scale(1.5, 1.2);
-}
-/*# sourceMappingURL=style.css.map */
+.animacionlogo:hover{
+  transform: scale(1.5 , 1.2);
